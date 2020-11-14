@@ -1,5 +1,11 @@
 # hulu_haxxor
 
+Requirements:
+* Your own emails to check
+* Your own passwords to check
+* Some proxies
+* Patience
+
 1. Put your testing emails in email.txt
 2. Put your testing passwords in password.txt
 3. Put your proxies in proxies.txt
