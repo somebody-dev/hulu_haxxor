@@ -1,8 +1,14 @@
-import requests
-import colorama
-from colorama import Fore
-import os
-colorama.init(autoreset=True)
+try:
+    import requests
+    import colorama
+    from colorama import Fore
+    import os
+    colorama.init(autoreset=True)
+except:
+    import os
+    os.system('cmd /k "pip install colorama --quiet"')
+    os.system('cmd /k "pip install requests --quiet"')
+    import colorama, requests
 
 req = requests.Session()
 
